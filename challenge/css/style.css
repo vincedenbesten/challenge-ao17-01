@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.logometnaam {
+  height: 80px;
+  padding: 20px;
+  background: linear-gradient(#ebebeb, #e7e7e3, #ebebeb);
+  display: flex;
+  flex-direction: row;
+}
+
+.logometnaam img {
+  height: 80px;
+  border-radius: 10px;
+}
+
+nav {
+  background: linear-gradient(#333, #666);
+  margin-bottom: 50px;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 10px 20px;
+  padding-bottom: 11px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: linear-gradient(#555, #888);
+}
+
+.banner {
+  height: 180px;
+  width: 100%;
+  background-image: url(../img/home-banner.jpg);
+  background-size: cover;
+  background-position: bottom;
+  padding: 10px;
+}
+
+.bannerover {
+  height: 180px;
+  width: 100%;
+  background-image: url(../img/jobs-banner.jpg);
+  background-size: cover;
+  background-position: 0px 430px;
+  padding: 10px;
+}
+
+.bannercontact {
+  height: 180px;
+  width: 100%;
+  background-image: url(../img/contact-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+}
+
+#bannerjobs {
+  height: 180px;
+  width: 100%;
+  background-image: url(../img/jobs-banner2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  padding: 10px;
+}
+#sandwhich {
+  height: inherit;
+  display: block;
+  margin: 0 auto;
+}
+
+
+main {
+  width: 600px;
+  background: linear-gradient(#f2f2f2, #fff, #f2f2f2);
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#contact1 {
+  width: 800px;
+}
+
+#googlemaps {
+  width: 100%;
+  border-radius: 20px;
+}
+
+aside {
+  width: 400px;
+  background: linear-gradient(#f2f2f2, #fff, #f2f2f2);
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#contact2 {
+
+}
+
+#oudeman {
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  color: #fff;
+  font-size: 80px;
+  display: block;
+  margin: auto 0;
+}
+
+h2 {
+  color: #262626;
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#maincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(#f2f2f2, #e6e6e6, #f2f2f2);
+  margin: 50px 0;
+}
+
+#maincontainer ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+#maincontainer ul li {
+  padding: 5px;
+}
+
+
+footer {
+  background: linear-gradient(#ebebeb, #e7e7e3, #ebebeb);
+  padding: 10px;
+  color: #fff;
+}
